@@ -1,13 +1,10 @@
 <script setup>
 import ShiftCard from './ShiftCard.vue'
+import TodayDateInfo from './TodayDateInfo.vue'
 </script>
 <template>
   <div>
-    <div>
-      <text>aujourd'hui</text>
-      <text>jeudi</text>
-      <text>15 octobre 2026</text>
-    </div>
+    <TodayDateInfo />
     <ShiftCard />
     <div>shift</div>
     <div>event1</div>

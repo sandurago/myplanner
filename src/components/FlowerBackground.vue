@@ -1,5 +1,4 @@
-<template>
-  <svg
+<svg
     class="flowers"
     aria-hidden="true"
     viewBox="0 0 414 896"
@@ -34,7 +33,7 @@
     <!-- mały kwiatek przy prawej krawędzi -->
     <use href="#bloom" transform="translate(402 600) scale(1.3) rotate(5)" fill="#f7bfd3" opacity="0.4" />
   </svg>
-</template>
+
 
 <style scoped>
 .flowers {
